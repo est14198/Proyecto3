@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.duo_info, .listul {
+    background-color:  rgb(247, 247, 247);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+p {
+    position: relative;
+    font-size: 19px;
+    display: block;
+    font-stretch: 100%;
+    margin-top: 70px;
+}
+
+.listul, .listil, .link, .link2 {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-stretch: 100%;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(28, 175, 246);
+    font-size: 17px;
+    list-style-type: none;
+    text-align: center;
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 23px;
+    margin-top: 3px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}

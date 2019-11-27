@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+}
+
+.top {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 175, 246);
+    margin-top: 70px;
+    width: 100%;
+}
+
+.first {
+    box-sizing: border-box;
+    display: inline-block;
+    font-stretch: 100%;
+    line-height: 20px;
+    padding-right: 70px;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.top_title {
+    color: white;
+    display: block;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-bottom: 45px;
+    margin-top: 35px;
+    padding-left: 40px;
+}
+
+.btn1 {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: white;
+    background-size: auto;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: rgb(28, 175, 246);
+    border: 0;
+    cursor: pointer;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    vertical-align: center;
+    width: 325px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.btn1:hover {
+    background-color: rgb(210, 239, 253);
+    color: rgb(28, 175, 246);
+}
+
+.btn2 {
+    font-weight: bold;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: auto;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn2:hover {
+    background-color: rgb(210, 239, 253);
+    color: rgb(28, 175, 246);
+}
+
+.img_top {
+    margin-left: -60px;
+    margin-bottom: -2px;
+}
