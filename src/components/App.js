@@ -1,17 +1,10 @@
 import React from 'react';
-import GetStarted from './bottom/getStarted';
-import DuoInfo from './duolingo_info/info';
-import SchoolsInfo from './schools_info/info';
-import Top from './top/inner';
 import Banner from './banner/banner';
+import './App.scss';
 
 const App = () => (
-    <div style={{display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
+    <div>
         <Banner />
-        <Top />
-        <SchoolsInfo />
-        <DuoInfo />
-        <GetStarted />
     </div>
 );
 
