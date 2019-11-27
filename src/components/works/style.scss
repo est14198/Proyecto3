@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong&display=swap');
+
+.projects {
+    font-family: 'Trirong', serif;
+    position: relative;
+    font-size: 60px;
+    color: white;
+    background-color: rgba(255, 41, 117, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+.centerabout1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .text_about1, a {
+        margin-right: 30px;
+        font-size: 25px;
+        font-family: 'Trirong', serif;
+        color: rgb(87, 87, 87);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(255, 41, 117)
+    }
+}
