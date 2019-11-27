@@ -14,3 +14,21 @@
     margin-top: 70px;
     margin-left: 0px;
 }
+
+.centerabout {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .text_about {
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: 'Trirong', serif;
+        color: rgb(87, 87, 87);
+    }
+}

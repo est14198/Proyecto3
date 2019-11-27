@@ -4,7 +4,7 @@ import image from './hi.gif';
 
 const Welcome = () => (
     <div className="welcome">
-        <img src={image} alt="welcome" />
+        <img src={image} alt="welcome"/>
     </div>
 );
 
