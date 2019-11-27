@@ -4,6 +4,7 @@ import './App.scss';
 import AboutMe from './about_me/about_me';
 import Welcome from './welcome/welcome';
 import Works from './works/works';
+import Interests from './interests/insterests';
 
 const App = () => (
     <div>
@@ -11,6 +12,7 @@ const App = () => (
         <Welcome />
         <AboutMe />
         <Works />
+        <Interests />
     </div>
 );
 
