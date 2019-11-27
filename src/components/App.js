@@ -5,6 +5,7 @@ import AboutMe from './about_me/about_me';
 import Welcome from './welcome/welcome';
 import Works from './works/works';
 import Interests from './interests/insterests';
+import Contact from './contact/contact';
 
 const App = () => (
     <div>
@@ -13,6 +14,7 @@ const App = () => (
         <AboutMe />
         <Works />
         <Interests />
+        <Contact />
     </div>
 );
 
